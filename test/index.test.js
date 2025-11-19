@@ -31,9 +31,9 @@ describe("index.html", async () => {
     const p = document.querySelector("p");
   });
 
-  it('should have an <h2> tag with "Gallery: Fire Island" as content', () => {
+  it('should have an <h2> tag with "Gallery: Pamu Island" as content', () => {
     const h2 = document.querySelector("h2");
-    expect(h2.textContent).toBe("Gallery: Fire Island");
+    expect(h2.textContent).toBe("Gallery: Pamu Island");
   });
 
   it("should have a <ul> tag with at least 2 <li> items", () => {
